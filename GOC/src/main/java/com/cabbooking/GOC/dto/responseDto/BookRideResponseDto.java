@@ -1,17 +1,14 @@
-package com.cabbooking.GOC.model;
+package com.cabbooking.GOC.dto.responseDto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
-import lombok.NoArgsConstructor;
-
 import java.math.BigDecimal;
 
 @Data
 @AllArgsConstructor
 @Builder
-@NoArgsConstructor
-public class Ride {
+public class BookRideResponseDto {
     private Long rideId;
     private Long userId;
     private  Long driverId;
